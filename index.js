@@ -4,6 +4,9 @@ var app = express()
 app.get('/hello', (req, res) => { // URL 응답 테스트
     res.send('hello world !')
 })
+
 app.listen(5000, () => { // 5000 포트로 서버 오픈
     console.log('server is running on port 5000 ...')
 })
+
+//나의 첫번째 서버 구동
